@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Yekan-bakh';
+    src: url('/fonts/Yekanbakh-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* Example for bold weight if you have multiple files */
+@font-face {
+    font-family: 'Yekan-bakh';
+    src: url('/fonts/Yekanbakh-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+body {
+    font-family: 'Yekan-bakh', sans-serif;
+  }
+  
