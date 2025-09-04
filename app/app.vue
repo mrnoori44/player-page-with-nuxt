@@ -1,8 +1,9 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
-  </div>
+  <Html lang="fa" dir="rtl">
+    <Body>
+      <NuxtPage />
+    </Body>
+  </Html>
 </template>
 <style>
 @import url('../assets/css/fonts.css');
