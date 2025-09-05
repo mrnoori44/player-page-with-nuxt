@@ -12,6 +12,10 @@ export default {
       fontFamily: {
         yekan: ['Yekan-bakh', 'sans-serif'],
       },
+      colors: {
+        primaryBg : '#1B1C1F',
+        secondaryBg: '#242629'
+      }
     },
   },
   plugins: [],
