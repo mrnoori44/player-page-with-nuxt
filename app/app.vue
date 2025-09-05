@@ -1,10 +1,13 @@
 <template>
   <Html lang="fa" dir="rtl">
     <Body>
-      <NuxtPage />
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
     </Body>
   </Html>
 </template>
-<style>
-@import url('../assets/css/fonts.css');
-</style>
+<script setup>
+import '../assets/css/fonts.css';
+import '../assets/css/global.css';
+</script>
